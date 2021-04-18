@@ -6,19 +6,19 @@
     font-weight: bolder;
 }
 
-
-/* ALL ELEMENTS RELATED TO THE BODY */
+/* Everything related to the BODY (usually the background) */
 body
 {
-    background-image: url(../backgrounds/01.png);
+    background-image: url(../backgrounds/04.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 
-/* The Title parameters */
+
+/* The title */
 .title
 {
     font-family: pixelBold, 'Trebuchet MS', Consolas;
@@ -54,9 +54,14 @@ body
 }
 
 
+
 /* The different blocks */
 .blocks
 {
+    font-family: Rubik, Arial;
+    text-align: center;
+    color: #007BFF;
+
     float: left;
     width: 29.5%;
 
@@ -83,65 +88,44 @@ body
     margin-right: 1%;
 }
 
-/* Les blocks réagissent en fonction de la taill de l'écran */
-@media only screen and (max-width: 1375px)
+
+
+/* The headers */
+h3
 {
-  .blocks
-  {
-    float: none;
-  }
-  #one
-  {
-    width: 75%;
-
-    margin: auto;
-    margin-top: 5%;
-  }
-  #two
-  {
-    width: 85%;
-
-    margin: auto;
-    margin-top: 5%;
-  }
-  #three
-  {
-    width: 75%;
-
-    margin: auto;
-    margin-top: 5%;
-
-  }
+    font-family: pixelBold, 'Trebuchet MS', Consolas;
+    font-size: 125%;
+    text-align: center;
+    text-decoration: underline;
+    color: #007BFF;
 }
-
-
-
-/* The paragraphs */
-p
+h4
 {
-    font-family: Rubik;
-    font-size: 85%;
+    font-family: Rubik, Arial;
     text-align: center;
     color: #007BFF;
 }
 
 
-/* The links */
-.links
+
+/* The link */
+.link
 {
     font-family: Rubik, Arial;
     text-align: center;
 
     margin: auto;
-    margin-top: 3%;
-    width: 35%;
+    margin-top: 27.5%;
+    margin-bottom: 2.5%;
+    width: 20%;
 
     background-color: #0C0C0C;
 
     border: 7px solid #007BFF;
     outline: 7px #0C0C0C dashed;
-    padding: 5px;
+    padding: 15px;
 }
+
 
 
 /* The parameters for the links theirselves */
@@ -150,14 +134,14 @@ a:link
     text-decoration: none;
     color: #007BFF;
 
-    padding: 10px;
+    padding: 5px;
     border: 3px solid #FFFFFF;
 }
 
 a:visited
 {
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     border: 3px solid #FFFFFF;
 }
 
@@ -165,4 +149,50 @@ a:hover
 {
     cursor: pointer;
     background-color: #22B4E5;
+}
+
+
+
+/* Responsive part */
+@media only screen and (max-width: 1385px)
+{
+  .blocks
+  {
+    float: none;
+  }
+  #one, #three
+  {
+    width: 75%;
+
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+  #two
+  {
+    width: 85%;
+
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+
+  .link
+  {
+    margin-top: 2.5%;
+  }
+}
+@media only screen and (max-width: 846px)
+{
+    .title
+    {
+        width: 75%;
+    }
+    .underTitle
+    {
+        width: 85%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }

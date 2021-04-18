@@ -1,0 +1,128 @@
+/* ALL FONTS */
+@font-face
+{
+    font-family: pixelBold;
+    src: url(../fonts/Pixellari.ttf);
+    font-weight: bolder;
+}
+
+/* Everything related to the BODY (usually the background) */
+body
+{
+    background-image: url(../backgrounds/05.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* The title */
+.title
+{
+    font-family: pixelBold, 'Trebuchet MS', Consolas;
+    font-size: 200%;
+    text-align: center;
+    color: #007BFF;
+
+    margin: auto;
+    margin-top: 2.5%;
+    width: 50%;
+
+    background-color: #0C0C0C;
+
+    border: 7px solid #007BFF;
+    outline: 7px #0C0C0C dashed;
+    padding: 5px;
+}
+
+
+
+/* The texts */
+.page
+{
+    font-family: Rubik, Arial;
+    font-size: 100%;
+    text-align: center;
+    color: #007BFF;
+
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+
+    background-color: #0C0C0C;
+
+    border: 7px solid #007BFF;
+    outline: 7px #0C0C0C dashed;
+    padding: 5px;
+}
+
+
+
+/* The links */
+.links
+{
+    font-family: Rubik, Arial;
+    text-align: center;
+
+    margin: auto;
+    margin-bottom: 2.5%;
+    width: 20%;
+
+    background-color: #0C0C0C;
+
+    border: 7px solid #007BFF;
+    outline: 7px #0C0C0C dashed;
+    padding: 15px;
+}
+
+
+
+/* The parameters for the links theirselves */
+a:link
+{
+    text-decoration: none;
+    color: #007BFF;
+
+    padding: 5px;
+    border: 3px solid #FFFFFF;
+}
+
+a:visited
+{
+    text-decoration: none;
+    padding: 5px;
+    border: 3px solid #FFFFFF;
+}
+
+a:hover
+{
+    cursor: pointer;
+    background-color: #22B4E5;
+}
+
+
+
+/* Responsive part */
+@media only screen and (max-width: 771px)
+{
+    .title
+    {
+    	width: 75%;
+    }
+
+
+    .page
+    {
+        width: 85%;
+        font-size: 75%;
+    }
+
+
+    .links
+    {
+    	width: 25%;
+    }
+}

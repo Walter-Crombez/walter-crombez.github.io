@@ -6,20 +6,19 @@
     font-weight: bolder;
 }
 
-
-/* ALL ELEMENTS RELATED TO THE BODY */
+/* Everything related to the BODY (usually the background) */
 body
 {
-    /* SOIT TU REPARES CA, SOIT CA ZWOOSH! */
-    background-image: url(../backgrounds/05.png);
+    background-image: url(../backgrounds/01.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 
-/* The Title parameters */
+
+/* The title */
 .title
 {
     font-family: pixelBold, 'Trebuchet MS', Consolas;
@@ -39,11 +38,9 @@ body
 }
 .underTitle
 {
-    font-family: pixelBold, 'Trebuchet MS', Consolas;
     font-size: 75%;
-    text-align: center;
-    color: #007BFF;
 }
+
 
 
 /* The links */
@@ -62,6 +59,7 @@ body
     outline: 7px #0C0C0C dashed;
     padding: 5px;
 }
+
 
 
 /* The parameters for the links theirselves */
@@ -85,4 +83,33 @@ a:hover
 {
     cursor: pointer;
     background-color: #22B4E5;
+}
+
+
+
+/* Responsive part */
+@media only screen and (max-width: 771px)
+{
+    .title
+    {
+        width: 85%;
+    }
+
+
+    .links
+    {
+        margin-top: 10%;
+        width: 60%;
+    }
+
+
+    a:link
+    {
+        padding: 7px;
+    }
+
+    a:visited
+    {
+        padding: 7px;
+    }
 }

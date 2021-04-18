@@ -6,19 +6,19 @@
     font-weight: bolder;
 }
 
-
-/* ALL ELEMENTS RELATED TO THE BODY */
+/* Everything related to the BODY (usually the background) */
 body
 {
-    background-image: url(../backgrounds/03.png);
+    background-image: url(../backgrounds/05.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 
-/* The Title parameters */
+
+/* The title */
 .title
 {
     font-family: pixelBold, 'Trebuchet MS', Consolas;
@@ -27,7 +27,7 @@ body
     color: #007BFF;
 
     margin: auto;
-    margin-top: 10%;
+    margin-top: 2.5%;
     width: 50%;
 
     background-color: #0C0C0C;
@@ -36,24 +36,21 @@ body
     outline: 7px #0C0C0C dashed;
     padding: 5px;
 }
-.underTitle
-{
-    font-family: pixelBold, 'Trebuchet MS', Consolas;
-    font-size: 75%;
-    text-align: center;
-    color: #007BFF;
-}
 
 
-/* The links */
-.links
+
+/* The texts */
+.page
 {
     font-family: Rubik, Arial;
+    font-size: 100%;
     text-align: center;
+    color: #007BFF;
 
     margin: auto;
-    margin-top: 3%;
-    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
 
     background-color: #0C0C0C;
 
@@ -61,6 +58,32 @@ body
     outline: 7px #0C0C0C dashed;
     padding: 5px;
 }
+h3
+{
+    font-family: pixelBold, 'Trebuchet MS', 'Consolas';
+    font-size: 125%;
+    text-decoration: underline;
+}
+
+
+
+/* The link */
+.link
+{
+    font-family: Rubik, Arial;
+    text-align: center;
+
+    margin: auto;
+    margin-bottom: 2.5%;
+    width: 20%;
+
+    background-color: #0C0C0C;
+
+    border: 7px solid #007BFF;
+    outline: 7px #0C0C0C dashed;
+    padding: 15px;
+}
+
 
 
 /* The parameters for the links theirselves */
@@ -69,14 +92,14 @@ a:link
     text-decoration: none;
     color: #007BFF;
 
-    padding: 10px;
+    padding: 5px;
     border: 3px solid #FFFFFF;
 }
 
 a:visited
 {
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     border: 3px solid #FFFFFF;
 }
 
@@ -84,4 +107,22 @@ a:hover
 {
     cursor: pointer;
     background-color: #22B4E5;
+}
+
+
+
+/* Responsive part */
+@media only screen and (max-width: 771px)
+{
+    .title
+    {
+        width: 85%;
+    }
+
+
+    .page
+    {
+        width: 75%;
+        font-size: 75%;
+    }
 }
