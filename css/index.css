@@ -9,7 +9,7 @@
 /* Everything related to the BODY (usually the background) */
 body
 {
-    background-image: url(../backgrounds/01.png);
+    background-image: url(../backgrounds/Back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,17 +99,17 @@ a:hover
     .links
     {
         margin-top: 10%;
-        width: 60%;
+        width: 65%;
     }
 
 
     a:link
     {
-        padding: 7px;
+        padding: 5px;
     }
 
     a:visited
     {
-        padding: 7px;
+        padding: 5px;
     }
 }
