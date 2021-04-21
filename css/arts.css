@@ -9,7 +9,7 @@
 /* Everything related to the BODY (usually the background) */
 body
 {
-    background-image: url(../backgrounds/Back.png);
+    background-image: url(../img/Back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,6 +57,23 @@ body
     border: 7px solid #007BFF;
     outline: 7px #0C0C0C dashed;
     padding: 5px;
+}
+
+.picture
+{
+    border: 3px solid #FFFFFF;
+}
+#fanart
+{
+    width: 50%;
+}
+#jet
+{
+    width: 35%;
+}
+#montage
+{
+    width: 50%;
 }
 
 

@@ -9,7 +9,7 @@
 /* Everything related to the BODY (usually the background) */
 body
 {
-    background-image: url(../backgrounds/Back.png);
+    background-image: url(../img/Back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
