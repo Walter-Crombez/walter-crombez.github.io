@@ -169,32 +169,32 @@ a:hover
 /* Responsive part */
 @media only screen and (max-width: 1385px)
 {
-  .blocks
-  {
-    float: none;
-  }
-  #one, #three
-  {
-    width: 75%;
+    .blocks
+    {
+      float: none;
+    }
+    #one, #three
+    {
+      width: 75%;
 
-    margin: auto;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-  }
-  #two
-  {
-    width: 85%;
+      margin: auto;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+    }
+    #two
+    {
+      width: 85%;
 
-    margin: auto;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-  }
+      margin: auto;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+    }
 
 
-  .link
-  {
-    margin-top: 2.5%;
-  }
+    .link
+    {
+      margin-top: 2.5%;
+    }
 }
 @media only screen and (max-width: 846px)
 {
