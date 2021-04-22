@@ -63,9 +63,17 @@ body
 {
     border: 3px solid #FFFFFF;
 }
-#unreal
+#unreal, #kart
 {
     width: 85%;
+}
+#sanon, #crousti
+{
+    width: 45%;
+}
+#foot
+{
+    width: 25%;
 }
 
 

@@ -88,6 +88,19 @@ body
     margin-right: 1%;
 }
 
+.picture
+{
+    border: 3px solid #FFFFFF;
+}
+#closet, #crousti
+{
+    width: 85%;
+}
+#jet
+{
+    width: 45%;
+}
+
 
 
 /* The headers */
@@ -115,7 +128,7 @@ h4
     text-align: center;
 
     margin: auto;
-    margin-top: 27.5%;
+    margin-top: 64%;
     margin-bottom: 2.5%;
     width: 20%;
 

@@ -67,6 +67,18 @@ body
     padding: 5px;
 }
 
+.picture
+{
+    border: 3px solid #FFFFFF;
+    width: 85%;
+}
+.sprite
+{
+    border: 3px solid #FFFFFF;
+    background-color: #899699;
+    width: 35%;
+}
+
 
 
 /* The links */
