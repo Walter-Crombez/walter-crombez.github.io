@@ -67,9 +67,11 @@ body
 {
     width: 50%;
 }
-#montage
+#pfp
 {
-    width: 50%;
+    float: left;
+    margin-left: 0.5%;
+    width: 49%;
 }
 #rwby
 {
@@ -123,6 +125,17 @@ a:hover
 
 
 /* Responsive part */
+@media only screen and (max-width: 1400px)
+{
+    #pfp
+    {
+        float: none;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+
 @media only screen and (max-width: 771px)
 {
     .title
